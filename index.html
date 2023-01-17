@@ -12,24 +12,33 @@
     </style>
     <link rel="shortcut icon" href="icon-canada.ico" type="image/x-icon">
 </head>
-<body>
+<body style="display: flex; flex-direction: column; align-items: center; background: #333333; color: white"></body>>
     <h1>Minhas redes sociais</h1>
         <h2>Quem sou eu?</h2>
-        <img src="Foto200.png" alt="">
+        <img src="Foto200.png" alt="" style="height: 300px; width: 300px">
 
         <p> Meu nome é <b>Vitor Henrique</b>,  sou estudante de Análise e Desensolvimento de Sistemas. <br>
-            Este é meu quinto desafio em <abbr title="HyperText Markup Language - Cascading Style Sheets"><mark style="background-color: rgb(237, 188, 154);">HTML-CSS</mark>.</abbr>
+            Este é meu quinto desafio em <abbr title="HyperText Markup Language - Cascading Style Sheets"><mark style="background-color: rgb(237, 224, 154);">HTML-CSS</mark>.</abbr>
             Atualmente estou em busca de oportunidade para <br> ingressar no mercado de trabalho
             e colocar em prática todo o conhecimento que venho <br> adquirindo em cursos e na faculdade.</p>
 
         <h2>Como falar comigo?</h2>
             <ul>
                 <a href="https://www.linkedin.com/in/vitor-dev/" target="_blank" rel="external">
-                    <li><img src="icone-linkedin.png" alt=""> Linkedin </a> - Me adiciona lá no Linkedin
+                    <li><img class="icons" src="icone-linkedin.png" alt=""> Linkedin </a> - Me adiciona lá no Linkedin
                 <a href="https://github.com/Vitor-HSD" target="_blank" rel="external">                
-                    <li><img src="icone-github.png" alt=""> GitHub </a> - Acesse para conhecer meus projetos
+                    <li><img class="icons" src="icone-github.png" alt=""> GitHub </a> - Acesse para conhecer meus projetos
                 <a href="https://www.instagram.com/vitor_hsd/" target="_blank" rel="external">                
-                    <li><img src="icone-instagram.png" alt=""> Instagram </a> - Me segue lá no Instagram
+                    <li><img class="icons" src="icone-instagram.png" alt=""> Instagram </a> - Me segue lá no Instagram
             </ul>
+            <style>
+                .icons{
+                filter: invert(1);
+                }
+                a{ 
+                  color: rgba(240, 162, 162, 0.65);
+                  text-decoration: none;
+                }
+                </style>
 </body>
 </html>
